@@ -34,7 +34,7 @@ public class ScrambledStringRecursive
 		String b="rgtea";
 		if(a.length()!=b.length())
 			System.out.println(false);
-		if(a==" "||b==" ")
+		if(a==" " && b==" ")
 			System.out.println(true);
 		System.out.println(solve(a,b));
 		
